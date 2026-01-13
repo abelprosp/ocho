@@ -40,8 +40,8 @@ export default function ValueProposition() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
         </svg>
       ),
-      title: 'Estratégia de Automação',
-      description: 'Funis complexos e segmentação avançada que convertem leads em clientes fiéis. Criamos jornadas personalizadas que nutrem cada contato no momento certo.',
+      title: 'Automação Inteligente',
+      description: 'Automações que trabalham 24/7 para sua clínica: lembretes de consulta, reativação de pacientes inativos e follow-ups pós-tratamento. Cada paciente recebe a mensagem certa no momento ideal.',
       delay: 0,
     },
     {
@@ -50,8 +50,8 @@ export default function ValueProposition() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M11 5H6a2 2 0 00-2 2v11a2 2 0 002 2h11a2 2 0 002-2v-5m-1.414-9.414a2 2 0 112.828 2.828L11.828 15H9v-2.828l8.586-8.586z" />
         </svg>
       ),
-      title: 'Copywriting de Conversão',
-      description: 'Textos que vendem e constroem marca. Cada email é estrategicamente escrito para maximizar abertura, clique e conversão, mantendo a voz única da sua empresa.',
+      title: 'Copywriting Médico-Estético',
+      description: 'Textos especializados que geram agendamentos. Cada email é escrito com linguagem adequada ao setor de saúde, respeitando regulamentações e criando conexão emocional com seus pacientes.',
       delay: 200,
     },
     {
@@ -60,8 +60,8 @@ export default function ValueProposition() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
         </svg>
       ),
-      title: 'Análise e Otimização',
-      description: 'Testes A/B contínuos e relatórios de ROI detalhados. Transformamos dados em decisões estratégicas que elevam constantemente o desempenho das suas campanhas.',
+      title: 'Resultados Mensuráveis',
+      description: 'Acompanhe quantos agendamentos cada campanha gerou, taxa de reativação de pacientes e ROI real. Relatórios claros que mostram o impacto direto no seu faturamento.',
       delay: 400,
     },
   ]
@@ -72,7 +72,7 @@ export default function ValueProposition() {
         <div className="max-w-4xl mx-auto text-center mb-16">
           <h2 className="text-4xl md:text-5xl font-display font-bold text-white mb-6">
             Não é Apenas Enviar E-mail.{' '}
-            <span className="text-primary-500">É Engenharia de Relacionamento.</span>
+            <span className="text-primary-500">É Preencher sua Agenda com Pacientes.</span>
           </h2>
         </div>
 

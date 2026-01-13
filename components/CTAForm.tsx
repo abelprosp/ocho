@@ -69,10 +69,10 @@ export default function CTAForm() {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-4xl md:text-6xl font-display font-bold text-white mb-6">
-            Pronto para Transformar seu Email Marketing?
+            Pronto para Preencher sua Agenda?
           </h2>
           <p className="text-xl text-gray-400 mb-12 max-w-2xl mx-auto">
-            Solicite sua auditoria gratuita e descubra como podemos aumentar seu ROI e reduzir seu CAC através de estratégias comprovadas.
+            Solicite uma consultoria gratuita e descubra como podemos aumentar seus agendamentos e reativar pacientes através de email marketing estratégico.
           </p>
 
           {/* CTAs */}
@@ -81,7 +81,7 @@ export default function CTAForm() {
               href="#form"
               className="px-8 py-4 bg-primary-600 text-white font-semibold text-lg rounded-lg hover:bg-primary-700 transition-all duration-300 hover:scale-105 shadow-lg shadow-primary-500/50"
             >
-              Solicitar Auditoria Gratuita
+              Solicitar Consultoria Gratuita
             </a>
             <a
               href="#contato"
@@ -202,7 +202,7 @@ export default function CTAForm() {
                 disabled={isSubmitting}
                 className="w-full py-4 bg-primary-600 text-white font-semibold text-lg rounded-lg hover:bg-primary-700 transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed shadow-lg shadow-primary-500/50"
               >
-                {isSubmitting ? 'Enviando...' : 'Solicitar Auditoria Gratuita'}
+                {isSubmitting ? 'Enviando...' : 'Solicitar Consultoria Gratuita'}
               </button>
 
               {/* Status Messages */}

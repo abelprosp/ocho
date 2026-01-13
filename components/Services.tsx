@@ -52,12 +52,12 @@ export default function Services() {
         </svg>
       ),
       title: 'Estratégia e Consultoria',
-      description: 'Desenvolvemos estratégias personalizadas de email marketing alinhadas aos seus objetivos de negócio.',
+      description: 'Desenvolvemos estratégias personalizadas de email marketing para sua clínica, focadas em aumentar agendamentos e reativar pacientes.',
       features: [
         'Auditoria completa do email marketing atual',
-        'Definição de estratégia e roadmap',
-        'Segmentação avançada de audiência',
-        'Cronograma de implementação'
+        'Estratégia de segmentação por tipo de tratamento',
+        'Planejamento de campanhas sazonais e promocionais',
+        'Cronograma de implementação personalizado'
       ],
       delay: 0,
     },
@@ -67,13 +67,13 @@ export default function Services() {
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
         </svg>
       ),
-      title: 'Automação e Funis',
-      description: 'Criamos funis de automação complexos que nutrem leads e convertem clientes de forma escalável.',
+      title: 'Automação e Disparo de Emails',
+      description: 'Criamos automações inteligentes para sua clínica: lembretes de consulta, reativação de pacientes, follow-up pós-tratamento e muito mais.',
       features: [
-        'Desenvolvimento de funis personalizados',
-        'Automações de onboarding e reengajamento',
-        'Fluxos de segmentação dinâmica',
-        'Integração com sua stack tecnológica'
+        'Automação de lembretes de consulta',
+        'Funil de reativação de pacientes inativos',
+        'Follow-up automático pós-tratamento',
+        'Campanhas de promoções e ofertas especiais'
       ],
       delay: 150,
     },
@@ -84,12 +84,12 @@ export default function Services() {
         </svg>
       ),
       title: 'Copywriting e Design',
-      description: 'Textos que convertem e designs que engajam. Cada email é otimizado para máxima performance.',
+      description: 'Emails com textos persuasivos e designs profissionais que geram agendamentos. Templates personalizados para sua clínica.',
       features: [
-        'Copywriting focado em conversão',
-        'Design de templates responsivos',
+        'Copywriting médico-estético especializado',
+        'Templates responsivos e profissionais',
         'Testes A/B de assunto e conteúdo',
-        'Otimização contínua de performance'
+        'Design alinhado à identidade visual da clínica'
       ],
       delay: 300,
     },
@@ -100,12 +100,12 @@ export default function Services() {
         </svg>
       ),
       title: 'Análise e Otimização',
-      description: 'Monitoramos, analisamos e otimizamos continuamente suas campanhas para maximizar ROI.',
+      description: 'Monitoramos e otimizamos suas campanhas para aumentar agendamentos e receita. Relatórios focados em resultados reais.',
       features: [
-        'Relatórios detalhados de performance',
-        'Análise de ROI e métricas de negócio',
-        'Recomendações estratégicas mensais',
-        'Ajustes contínuos baseados em dados'
+        'Relatórios de agendamentos gerados',
+        'Análise de taxa de abertura e conversão',
+        'Métricas de reativação de pacientes',
+        'Otimização contínua baseada em dados'
       ],
       delay: 450,
     },
@@ -119,7 +119,7 @@ export default function Services() {
             Nossos Serviços
           </h2>
           <p className="text-xl text-gray-400">
-            Soluções completas de email marketing para empresas que querem resultados reais
+            Soluções completas de email marketing e disparo de emails para clínicas de estética e odontologia
           </p>
         </div>
 

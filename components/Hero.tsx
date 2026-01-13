@@ -27,19 +27,19 @@ export default function Hero() {
             <div className={`transition-opacity duration-700 ${isVisible ? 'opacity-100' : 'opacity-0'}`}>
               {/* Banner */}
               <div className="inline-flex items-center gap-2 bg-dark-light border border-white/10 rounded-full px-4 py-2 mb-8 backdrop-blur-sm">
-                <span className="text-white text-sm">Conheça melhor, agende sua demonstração agora!</span>
+                <span className="text-white text-sm">Especializado em Clínicas de Estética e Odontologia</span>
                 <svg className="w-4 h-4 text-primary-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
                 </svg>
               </div>
 
               <h1 className="text-5xl sm:text-6xl md:text-7xl font-display font-bold text-white mb-6 leading-tight">
-                Aumente suas vendas com campanhas de{' '}
-                <span className="text-primary-500">Email Marketing</span> direcionadas
+                Email Marketing que{' '}
+                <span className="text-primary-500">Preenche sua Agenda</span> com Pacientes
               </h1>
 
               <p className="text-xl text-gray-400 mb-10 max-w-2xl leading-relaxed">
-                Crie e envie emails personalizados que ressoam com seus prospects. Conecte-se com clientes potenciais, nutra leads e feche negócios mais rápido e eficientemente.
+                Dispare campanhas de email marketing estratégicas para sua clínica de estética ou odontologia. Conquiste mais pacientes, reative antigos clientes e aumente sua receita com automações inteligentes.
               </p>
 
               {/* CTAs */}
@@ -48,7 +48,7 @@ export default function Hero() {
                   href="#cta"
                   className="px-8 py-4 bg-primary-600 text-white font-semibold text-lg rounded-lg hover:bg-primary-700 transition-all duration-300 hover:scale-105 shadow-lg shadow-primary-500/50 flex items-center gap-2"
                 >
-                  Iniciar Campanha
+                  Agendar Consultoria Gratuita
                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7l5 5m0 0l-5 5m5-5H6" />
                   </svg>
@@ -64,11 +64,11 @@ export default function Hero() {
               {/* Feature Highlights */}
               <div className="grid grid-cols-2 gap-4">
                 <div className="bg-dark-light border border-white/10 rounded-xl p-4 backdrop-blur-sm">
-                  <div className="text-2xl font-bold text-primary-500 mb-1">+200%</div>
-                  <div className="text-sm text-gray-400">ROI Médio dos Clientes</div>
+                  <div className="text-2xl font-bold text-primary-500 mb-1">+150%</div>
+                  <div className="text-sm text-gray-400">Agendamentos em Média</div>
                 </div>
                 <div className="bg-dark-light border border-white/10 rounded-xl p-4 backdrop-blur-sm">
-                  <div className="text-2xl font-bold text-primary-500 mb-1">98%</div>
+                  <div className="text-2xl font-bold text-primary-500 mb-1">95%</div>
                   <div className="text-sm text-gray-400">Taxa de Entregabilidade</div>
                 </div>
               </div>
@@ -130,10 +130,10 @@ export default function Hero() {
                                 <span className="text-gray-500 text-xs">14:30</span>
                               </div>
                               <div className="text-gray-900 font-medium text-sm mb-1 truncate">
-                                Proposta comercial - Parceria estratégica
+                                Lembrete de Consulta - Confirmação de Agendamento
                               </div>
                               <div className="text-gray-500 text-sm line-clamp-1">
-                                Olá, gostaríamos de apresentar nossa proposta de parceria...
+                                Olá Maria, confirmamos sua consulta de harmonização facial para...
                               </div>
                               <div className="flex items-center gap-2 mt-2">
                                 <span className="px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">Aberto</span>
@@ -155,10 +155,10 @@ export default function Hero() {
                                 <span className="text-gray-500 text-xs">13:15</span>
                               </div>
                               <div className="text-gray-900 font-medium text-sm mb-1 truncate">
-                                Reunião agendada - Apresentação de resultados
+                                Promoção Especial - Tratamento Facial
                               </div>
                               <div className="text-gray-500 text-sm line-clamp-1">
-                                Confirmamos a reunião para amanhã às 15h para apresentar...
+                                Aproveite 30% OFF em tratamentos faciais este mês. Agende já...
                               </div>
                               <div className="flex items-center gap-2 mt-2">
                                 <span className="px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">Aberto</span>
@@ -180,10 +180,10 @@ export default function Hero() {
                                 <span className="text-gray-500 text-xs">12:00</span>
                               </div>
                               <div className="text-gray-900 font-medium text-sm mb-1 truncate">
-                                Nova campanha - Lançamento de produto
+                                Reativação - Você está com saudade?
                               </div>
                               <div className="text-gray-500 text-sm line-clamp-1">
-                                Estamos lançando um novo produto e gostaríamos de contar com você...
+                                Faz tempo que não te vemos! Que tal agendar uma avaliação gratuita...
                               </div>
                               <div className="flex items-center gap-2 mt-2">
                                 <span className="px-2 py-0.5 bg-green-100 text-green-700 text-xs rounded">Aberto</span>
@@ -196,7 +196,7 @@ export default function Hero() {
                       {/* Progress Bar */}
                       <div className="mt-6 pt-6 border-t border-gray-200">
                         <div className="flex items-center justify-between mb-2">
-                          <span className="text-sm font-medium text-gray-700">Campanha: Lançamento Q4</span>
+                          <span className="text-sm font-medium text-gray-700">Campanha: Reativação de Pacientes</span>
                           <span className="text-sm font-bold text-primary-600">67.8%</span>
                         </div>
                         <div className="w-full bg-gray-200 rounded-full h-2">
@@ -216,8 +216,8 @@ export default function Hero() {
                       </svg>
                     </div>
                     <div>
-                      <div className="text-white font-bold text-lg">+$50M</div>
-                      <div className="text-xs text-gray-400">Gerados em Vendas</div>
+                      <div className="text-white font-bold text-lg">+2.500</div>
+                      <div className="text-xs text-gray-400">Agendamentos Gerados</div>
                     </div>
                   </div>
                 </div>

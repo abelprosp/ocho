@@ -40,20 +40,20 @@ export default function Process() {
   const steps = [
     {
       number: 1,
-      title: 'Descoberta',
-      description: 'Realizamos uma auditoria completa do seu email marketing atual e mapeamos toda a jornada do cliente. Identificamos oportunidades de otimização e pontos de melhoria estratégicos.',
+      title: 'Análise da Clínica',
+      description: 'Analisamos sua base de pacientes, histórico de agendamentos e campanhas anteriores. Identificamos oportunidades de reativação e segmentação para maximizar resultados.',
       delay: 0,
     },
     {
       number: 2,
-      title: 'Implementação',
-      description: 'Construímos funis de automação personalizados e campanhas estratégicas alinhadas aos seus objetivos de negócio. Cada etapa é cuidadosamente planejada e executada.',
+      title: 'Configuração e Disparo',
+      description: 'Configuramos automações personalizadas, templates profissionais e campanhas estratégicas. Começamos a disparar emails otimizados para gerar agendamentos.',
       delay: 200,
     },
     {
       number: 3,
-      title: 'Escala',
-      description: 'Otimização contínua baseada em dados e relatórios de performance detalhados. Ajustamos estratégias em tempo real para maximizar resultados e escalar seu crescimento.',
+      title: 'Otimização Contínua',
+      description: 'Monitoramos resultados, ajustamos estratégias e otimizamos campanhas baseado em dados reais. Seu número de agendamentos cresce mês a mês.',
       delay: 400,
     },
   ]
@@ -66,7 +66,7 @@ export default function Process() {
             Como Funciona
           </h2>
           <p className="text-xl text-gray-400">
-            Um processo estruturado para transformar seu email marketing
+            Um processo estruturado para preencher sua agenda com pacientes
           </p>
         </div>
 

@@ -22,7 +22,7 @@ export default function Footer() {
                 </div>
               </div>
               <p className="text-gray-400 text-sm">
-                Transformando listas de e-mails em máquinas de lucro através de estratégias de alto nível.
+                Email marketing especializado para clínicas de estética e odontologia. Preenchendo agendas e gerando resultados reais.
               </p>
             </div>
 

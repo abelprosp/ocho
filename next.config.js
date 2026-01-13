@@ -4,9 +4,6 @@ const nextConfig = {
   images: {
     formats: ['image/avif', 'image/webp'],
   },
-  experimental: {
-    optimizeFonts: true,
-  },
 }
 
 module.exports = nextConfig

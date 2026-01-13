@@ -61,41 +61,41 @@ function CaseStudy({ company, industry, challenge, solution, results, delay = 0 
 export default function CaseStudies() {
   const cases = [
     {
-      company: 'E-commerce Fashion',
-      industry: 'E-commerce',
-      challenge: 'Taxa de abertura abaixo de 15% e baixa conversão em campanhas promocionais.',
-      solution: 'Implementamos segmentação avançada, automações de abandonar carrinho e copywriting otimizado.',
+      company: 'Clínica de Estética Facial',
+      industry: 'Estética',
+      challenge: 'Agenda com muitas vagas ociosas e pacientes antigos sem retornar para novos tratamentos.',
+      solution: 'Implementamos automações de reativação, campanhas promocionais sazonais e lembretes de consulta personalizados.',
       results: [
-        { metric: 'Taxa de Abertura', value: '+185%' },
-        { metric: 'Taxa de Conversão', value: '+320%' },
-        { metric: 'ROI', value: '+450%' },
-        { metric: 'Receita Mensal', value: '+R$ 2.5M' },
+        { metric: 'Agendamentos', value: '+180%' },
+        { metric: 'Pacientes Reativados', value: '+320%' },
+        { metric: 'Taxa de Abertura', value: '+145%' },
+        { metric: 'Receita Mensal', value: '+R$ 85K' },
       ],
       delay: 0,
     },
     {
-      company: 'SaaS B2B',
-      industry: 'Tecnologia',
-      challenge: 'Funil de conversão ineficiente e alto custo de aquisição de clientes.',
-      solution: 'Criamos funis de nutrição complexos, automações de onboarding e campanhas de upsell.',
+      company: 'Clínica Odontológica',
+      industry: 'Odontologia',
+      challenge: 'Alto índice de faltas em consultas e baixa adesão a tratamentos preventivos.',
+      solution: 'Criamos automações de lembretes, campanhas educativas sobre saúde bucal e follow-ups pós-tratamento.',
       results: [
-        { metric: 'Taxa de Conversão', value: '+280%' },
-        { metric: 'LTV', value: '+195%' },
-        { metric: 'CAC', value: '-45%' },
-        { metric: 'Churn Rate', value: '-38%' },
+        { metric: 'Redução de Faltas', value: '-65%' },
+        { metric: 'Agendamentos', value: '+220%' },
+        { metric: 'Taxa de Conversão', value: '+195%' },
+        { metric: 'ROI', value: '+380%' },
       ],
       delay: 200,
     },
     {
-      company: 'Serviços Digitais',
-      industry: 'Serviços',
-      challenge: 'Falta de engajamento com clientes e campanhas sem personalização.',
-      solution: 'Desenvolvemos estratégia de relacionamento, automações personalizadas e jornadas multicanal.',
+      company: 'Clínica de Harmonização',
+      industry: 'Estética',
+      challenge: 'Dificuldade em manter pacientes engajados entre sessões e baixa taxa de retorno.',
+      solution: 'Desenvolvemos jornadas de nutrição pós-procedimento, campanhas de manutenção e automações de reativação.',
       results: [
-        { metric: 'Taxa de Engajamento', value: '+240%' },
-        { metric: 'NPS', value: '+35 pts' },
-        { metric: 'Receita Recorrente', value: '+180%' },
-        { metric: 'ROI', value: '+380%' },
+        { metric: 'Taxa de Retorno', value: '+240%' },
+        { metric: 'Agendamentos', value: '+165%' },
+        { metric: 'Receita Recorrente', value: '+195%' },
+        { metric: 'NPS', value: '+28 pts' },
       ],
       delay: 400,
     },
@@ -109,7 +109,7 @@ export default function CaseStudies() {
             Cases de Sucesso
           </h2>
           <p className="text-xl text-gray-400">
-            Resultados reais de empresas que transformaram seu email marketing conosco
+            Resultados reais de clínicas que aumentaram agendamentos com nosso email marketing
           </p>
         </div>
 
